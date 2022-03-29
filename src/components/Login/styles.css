@@ -1,0 +1,58 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.login .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 32px;
+}
+.login .formulario input {
+    width: 303px;
+    height: 45px;
+    background-color: #FFFFFF;
+    
+    border-radius: 5px;
+    border: 1px solid #D4D4D4;
+
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    font-weight: 400;
+    color: #DBDBDB;
+    
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+}
+.login .formulario button {
+    width: 303px;
+    height: 45px;
+    background-color: #52B6FF;
+
+    border-radius: 5px;
+    border: none;
+
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login a:-webkit-any-link {
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-weight: 400;
+    color: #52B6FF;
+
+    margin-top: 25px;
+}
