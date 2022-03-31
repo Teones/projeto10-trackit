@@ -31,6 +31,9 @@
     align-items: center;
     padding-left: 11px;
 }
+.cadastro .formulario input::placeholder {
+    color: #DBDBDB;
+}
 .cadastro .formulario button {
     width: 303px;
     height: 45px;

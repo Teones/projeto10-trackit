@@ -24,9 +24,11 @@ function Logo () {
 function Formulario () {
     return (
         <form className="formulario">
-            <input type="email" value="email" required/>
-            <input type="password" value="password" required/>
-            <button type="submit">Entrar</button>
+            <input type="email" placeholder="email" />
+            <input type="password" placeholder="senha" />
+            <Link to={"/habitos"}>
+                <button type="submit">Entrar</button>
+            </Link>
         </form>
     )
 }

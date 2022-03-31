@@ -24,10 +24,10 @@ function Logo () {
 function Formulario () {
     return (
         <form className="formulario">
-            <input type="email" value="email" required/>
-            <input type="password" value="password" required/>
-            <input type="text" value="nome" required />
-            <input type="text" value="foto" required />
+            <input type="email" placeholder="email" required/>
+            <input type="password" placeholder="password" required/>
+            <input type="text" placeholder="nome" required />
+            <input type="url" placeholder="foto" required />
             <button type="submit">Cadastrar</button>
         </form>
     )

@@ -31,6 +31,9 @@
     align-items: center;
     padding-left: 11px;
 }
+.login .formulario input::placeholder {
+    color: #DBDBDB;
+}
 .login .formulario button {
     width: 303px;
     height: 45px;

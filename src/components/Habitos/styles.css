@@ -1,0 +1,192 @@
+.habitos {
+    width: 100vw;
+    position: relative;
+}
+.habitos .header {
+    width: 100vw;
+    height: 70px;
+
+    background-color: #126BA5;
+    box-shadow: 0px 4px 4px 0px #00000026;
+
+    font-family: "Playball";
+    font-size: 39px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;
+
+    position: fixed;
+    top: 0;
+}
+.habitos .header img {
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    
+}
+
+.habitos .titulo {
+    font-family: "Lexend Deca";
+    font-size: 23px;
+    font-weight: 400;
+    color: #126BA5;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 98px 17px 28px 17px;
+}
+.habitos .titulo button {
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #52B6FF;
+    
+    font-size: 27px;
+    color: #FFFFFF;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habitos .lista-de-habitos {
+    font-family: "Lexend Deca";
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+
+    padding: 0 17px;
+}
+
+.habitos .criar-habito {
+    height: 180px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    padding: 18px 19px;
+    margin: 0 17px;
+    margin-bottom: 29px;
+}
+.habitos .criar-habito input {
+    width: 303px;
+    height: 45px;
+    background-color: #FFFFFF;
+    border: 1px solid #D4D4D4;
+
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    font-weight: 400;
+    color: #DBDBDB;
+
+    display: flex;
+    padding: 9px 11px;
+}
+.habitos .criar-habito input::placeholder {
+    color: #DBDBDB;
+}
+.habitos .criar-habito .semana {
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+}
+.habitos .criar-habito .semana button {
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    font-weight: 400;
+    color: #DBDBDB;    
+    
+    border-radius: 5px;
+    border: 1px solid #D4D4D4;
+}
+.habitos .criar-habito .semana .true {
+    background-color: #CFCFCF;
+    color: #FFFFFF;
+}
+.habitos .criar-habito .acoes {
+    display: flex;
+    justify-content: end;
+    margin-top: 29px;
+    gap: 23px;
+}
+.habitos .criar-habito .cancelar {
+    height: 35px;
+
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-weight: 400;
+    color: #52B6FF;
+
+    background-color: #FFFFFF;
+    border: none;
+}
+.habitos .criar-habito .salvar {
+    height: 35px;
+    background-color: #52B6FF;
+    border-radius: 5px;
+    border: none;
+
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;  
+    
+    display: flex;
+    padding: 0 17px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    width: 100vw;
+    height: 70px;
+    background-color: #FFFFFF;
+    
+    display: flex;
+    padding: 0 36px;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0;
+}
+.footer a:-webkit-any-link {
+    font-family: "Lexend Deca";
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #52B6FF;
+}
+.footer .hoje {
+    width: 91px;
+    height: 91px;
+    background-color: #52B6FF;
+    border-radius: 50%;
+
+    position: relative;
+    bottom: 20px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .hoje p {
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+.footer .hoje img {
+    margin-left: 9px;
+    position: absolute;
+}
