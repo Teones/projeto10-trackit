@@ -116,7 +116,7 @@
 }
 .habitos .criar-habito .acoes {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     margin-top: 29px;
     gap: 23px;
 }
